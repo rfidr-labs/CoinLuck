@@ -41,7 +41,7 @@ ul.skills {
   background: linear-gradient(
     0deg,
     #ffffff 0 10px,
-    #00b6ff calc(100% - 10px),
+    #ffbfaa calc(100% - 10px),
     #ffaa00 0 50%
   );
 }
@@ -61,7 +61,7 @@ ul.skills:before {
   top: -75px;
   height: 60px;
   color: var(--w1);
-  background-color: #5353ec;
+  background-color: #eb2b00;
   width: 100%;
   left: 0;
   padding: 15px 15px 0 0;
@@ -98,7 +98,7 @@ ul.skills:hover:before,
 label:hover + ul.skills:before,
 input:checked + label + ul.skills:before {
   transition: var(--t1);
-  background-color: #0a0a5c;
+  background-color: #5c0a0a;
   background-position: 0 50%;
 }
 ul.skills:hover:after,
@@ -106,7 +106,7 @@ label:hover + ul.skills:after,
 input:checked + label + ul.skills:after {
   top: -20px;
   transition: var(--t1);
-  border-top-color: #0a0a5c;
+  border-top-color: #5c0a0a;
 }
 
 ul.skills2:hover:before,
@@ -123,12 +123,12 @@ input:checked + label + ul.skills2:after {
 ul.skills3:hover:before,
 label:hover + ul.skills3:before,
 input:checked + label + ul.skills3:before {
-  background-color: #0a0a5c;
+  background-color: #5c0a0a;
 }
 ul.skills3:hover:after,
 label:hover + ul.skills3:after,
 input:checked + label + ul.skills3:after {
-  border-top-color: #0a0a5c;
+  border-top-color: #5c0a0a;
 }
 
 ul.skills li {
@@ -140,7 +140,7 @@ ul.skills li {
   position: relative;
   text-transform: uppercase;
   font-size: 15px;
-  color: #0a0a5c;
+  color: #5c0a0a;
 }
 
 ul.skills li:before {
@@ -174,7 +174,7 @@ ul.skills li:after {
   content: "";
   height: 11px;
   margin: 0 0 2px 0;
-  background: #0a0a5c;
+  background: #5c0a0a;
   position: absolute;
   box-shadow: 0px 0px 10px 1px #ffffff;
   left: 3px;
@@ -293,11 +293,11 @@ ul.skills li.sk-ani {
 ul.skills li.sk-anu {
   --per: 2;
 }
-ul.skills li.sk-lock {
-  --per: 40;
+ul.skills li.sk-burn {
+  --per: 10;
 }
 ul.skills li.sk-comdev {
-  --per: 5;
+  --per: 17;
 }
 ul.skills li.sk-dtb {
   --per: 30;
@@ -322,20 +322,20 @@ ul.skills li.sk-tri {
   --per: 70;
 }
 ul.skills li.sk-pool {
-  --per: 15;
+  --per: 20;
 }
-ul.skills li.sk-mark {
-  --per: 6;
+ul.skills li.sk-chart {
+  --per: 3;
 }
 
 ul.skills li.sk-dev {
   --per: 4;
 }
 ul.skills li.sk-max {
-  --per: 100;
+  --per: 90;
 }
 ul.skills li.sk-pub {
-  --per: 10;
+  --per: 50;
 }
 ul.skills li.sk-php {
   --per: 80;
@@ -343,8 +343,8 @@ ul.skills li.sk-php {
 ul.skills li.sk-sql {
   --per: 65;
 }
-ul.skills li.sk-pug {
-  --per: 40;
+ul.skills li.sk-circle {
+  --per: 100;
 }
 
 /*********************/

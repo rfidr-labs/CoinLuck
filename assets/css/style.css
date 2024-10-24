@@ -157,12 +157,12 @@ html {
 
 body {
   background-color: transparent;
-  color: var(--cadet-blue-crayola);
+  color: var(--cultured);
   font-size: 1.6rem;
   line-height: 1.4;
   background:transparent;
 
-  background-image: url('https://media.giphy.com/media/fyad3Zy4KPso5IzcL9/giphy.gif?cid=ecf05e47xt6mcjc4euybna5fo72bmn2il19bjf9esq5jjcdw&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* Ganti 'background.gif' dengan nama file gambar bergerak Anda */
+  background-image: url('https://media.giphy.com/media/XeH46jGNhcnaySNyd1/giphy.gif?cid=ecf05e47xt6mcjc4euybna5fo72bmn2il19bjf9esq5jjcdw&ep=v1_gifs_search&rid=giphy.gif&ct=g'); /* Ganti 'background.gif' dengan nama file gambar bergerak Anda */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
