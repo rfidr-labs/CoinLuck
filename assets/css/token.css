@@ -55,7 +55,7 @@ ul.skills3 {
 }
 
 ul.skills:before {
-  content: "Tokenomics";
+  content: "Tokenomics ( % )";
   text-transform: capitalize;
   position: absolute;
   top: -75px;
